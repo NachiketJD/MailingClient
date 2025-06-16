@@ -2,8 +2,7 @@ import smtplib
 from email import encoders # This is used to encode the attachment
 from email.mime.multipart import MIMEMultipart # This is used to create a multipart message
 from email.mime.base import MIMEBase # This is used to create a base message
-from email.mime.text import MIMEText
-
+from email.mime.text import MIMEText # This is used to create a text message
 
 server = smtplib.SMTP('smtp.gmail.com', 25) # This line of code, is used to connect to the Gmail server 
 server.ehlo() # This line of code, is used to send an email to the Gmail server
