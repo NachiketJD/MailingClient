@@ -1,5 +1,5 @@
 import smtplib
-from email import encoders
+from email import encoders # This is used to encode the attachment
 from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email.mime.text import MIMEText
